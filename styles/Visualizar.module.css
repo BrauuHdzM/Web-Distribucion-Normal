@@ -1,0 +1,44 @@
+.contenedor{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.resultados{
+    align-self: center;
+    color: blue;
+    font-weight: bold;
+}
+
+.lista{
+    margin-left: 30px;
+}
+
+.graf{
+    display: flex;
+    justify-content: center;
+}
+
+.boton{
+    margin-top: 20px;
+    margin-right: 20px;
+    align-self: flex-end;
+    text-decoration: none;
+
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px grey;
+    padding: 5px;
+}
+
+.boton:hover{
+    background-color: orange;
+    border: 1px solid orange;
+}
+
+.tablasZ{
+    display: block;
+    margin: auto;
+}

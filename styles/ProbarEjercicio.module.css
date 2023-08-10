@@ -1,0 +1,81 @@
+.contenedor{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo{
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.ejercicio{
+    margin-top: 10px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.boton{
+    cursor: pointer;
+    height: 25px;
+
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.boton:hover{
+    background-color: orange;
+    border: 2px solid orange;
+    box-shadow: 0px 0px 10px grey;
+    color: black;
+}
+
+.prueba{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.botonV{
+    margin-top: 20px;
+    margin-right: 20px;
+    align-self: flex-end;
+    text-decoration: none;
+
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px grey;
+    padding: 5px;
+}
+
+.botonV:hover{
+    background-color: orange;
+    border: 1px solid orange;
+}
+
+.input{
+    border-radius: 10px;
+    padding: 1px 10px 1px 10px;
+    -moz-appearance:textfield;
+}
+
+.input::-webkit-inner-spin-button, .inputs::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+
+.input:focus{
+    outline: none;
+    box-shadow: 0 0 5px gray;
+}
+
+.graf{
+    display: flex;
+    justify-content: center;
+}
